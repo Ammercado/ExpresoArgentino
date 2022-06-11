@@ -1,14 +1,15 @@
 <?php
-require("libs/fetch_data.php");
 require("libs/fetchTP.php");
 ?>
 
 <html lang="en">
 
-<head><meta charset="windows-1252">
-    
-    <meta name="description" content="Activitar Template">
-    <meta name="keywords" content="Activitar, unica, creative, html">
+<head>  
+    <meta charset="UTF-8">
+
+
+<meta name="description" content="Expreso Argentino">
+<meta name="keywords" content="Expreso Argentino, VTC, ETS2">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -19,7 +20,6 @@ require("libs/fetchTP.php");
     <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
@@ -31,10 +31,7 @@ require("libs/fetchTP.php");
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
     <!-- Js Plugins -->
     <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/mixitup.min.js"></script>
     <script src="js/jquery.nice-select.min.js"></script>
@@ -48,9 +45,9 @@ require("libs/fetchTP.php");
 
 <body>
     <!-- Page Preloder -->
-    <div id="preloder">
+   <!-- <div id="preloder">
         <div class="loader"></div>
-    </div>
+    </div>-->
     <!-- Header Section Begin -->
     <?php include("header.php"); ?>
     <!-- Header End -->
@@ -264,7 +261,7 @@ require("libs/fetchTP.php");
                                 <div class="col-lg-12">
                                     <textarea id="motivo" placeholder="Comentanos tu motivo para ingresar a la empresa"></textarea>
                                     <button type=submit" id="button" class="c-btn">Enviar</button>
-                                    <input type="text" id="a" name="a" class="form-control"  >
+
                                     <p>Al dar click en "Enviar Solicitud", Usted esta aceptando nuestras <a href="./privacy.php" target="_blank"> Politicas de Privacidad</a> y <a href="./term.php" target="_blank"> Terminos & Condiciones </a></p>
                                 </div>
                             </div>
@@ -531,7 +528,7 @@ require("libs/fetchTP.php");
         <div class="col-lg-12 text-center">
             <div class="footer-logo-item">
                 <div class="social-links">
-                    <?php getWebs(); ?>
+                    <!--<?php getWebs(); ?>-->
                 </div>
             </div>
         </div>
